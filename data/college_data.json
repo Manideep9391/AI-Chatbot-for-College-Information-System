@@ -1,13 +1,13 @@
 {
-  "college_name": "Greenfield University",
+  "college_name": "Gurunanak college",
   "intents": [
     {
       "tag": "greeting",
       "patterns": ["hello", "hi", "hey", "good morning", "good afternoon", "good evening", "howdy", "greetings", "start", "help me"],
       "responses": [
-        "Hello! Welcome to Greenfield University. How can I assist you today?",
+        "Hello! Welcome to Gurunanak college. How can I assist you today?",
         "Hi there! I'm your college assistant. What would you like to know?",
-        "Hey! Great to see you. Ask me anything about Greenfield University!"
+        "Hey! Great to see you. Ask me anything about Gurunanak college!"
       ]
     },
     {
@@ -49,7 +49,7 @@
         "undergraduate programs", "postgraduate programs", "what do you offer", "btech"
       ],
       "responses": [
-        "Courses Offered at Greenfield University:\n\nUndergraduate (UG):\n- B.Tech (CS, ECE, Mechanical, Civil, AI & ML)\n- BCA - Bachelor of Computer Applications\n- B.Sc (Physics, Chemistry, Mathematics, Biotechnology)\n- B.Com (General, Honours, Accounting)\n- BA (Economics, English, Political Science, Psychology)\n- BBA - Bachelor of Business Administration\n\nPostgraduate (PG):\n- M.Tech (CS, ECE, Data Science)\n- MCA - Master of Computer Applications\n- MBA (Finance, HR, Marketing, Operations)\n- M.Sc (Mathematics, Physics, Chemistry)\n- MA (English, Economics)\n\nDiploma & Certificate:\n- Diploma in Web Development\n- Certificate in Data Science\n- Certificate in Digital Marketing\n\nDuration: UG = 3-4 years | PG = 2 years\nWant fee details or eligibility for any course?"
+        "Courses Offered  Gururnanak college :\n\nUndergraduate (UG):\n- B.Tech (CS, ECE, Mechanical, Civil, AI & ML)\n- BCA - Bachelor of Computer Applications\n- B.Sc (Physics, Chemistry, Mathematics, Biotechnology)\n- B.Com (General, Honours, Accounting)\n- BA (Economics, English, Political Science, Psychology)\n- BBA - Bachelor of Business Administration\n\nPostgraduate (PG):\n- M.Tech (CS, ECE, Data Science)\n- MCA - Master of Computer Applications\n- MBA (Finance, HR, Marketing, Operations)\n- M.Sc (Mathematics, Physics, Chemistry)\n- MA (English, Economics)\n\nDiploma & Certificate:\n- Diploma in Web Development\n- Certificate in Data Science\n- Certificate in Digital Marketing\n\nDuration: UG = 3-4 years | PG = 2 years\nWant fee details or eligibility for any course?"
       ]
     },
     {
