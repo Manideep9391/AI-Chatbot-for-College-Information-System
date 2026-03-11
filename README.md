@@ -1,4 +1,4 @@
-# 🎓 Greenfield University — AI College Chatbot
+# 🎓 Gurunanak University — AI College Chatbot
 
 A full-stack AI chatbot deployable on **Vercel**, **Render**, **Railway**, or **locally**.
 
