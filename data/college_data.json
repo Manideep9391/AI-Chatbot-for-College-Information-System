@@ -1,0 +1,158 @@
+{
+  "college_name": "Greenfield University",
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hello", "hi", "hey", "good morning", "good afternoon", "good evening", "howdy", "greetings", "start", "help me"],
+      "responses": [
+        "Hello! Welcome to Greenfield University. How can I assist you today?",
+        "Hi there! I'm your college assistant. What would you like to know?",
+        "Hey! Great to see you. Ask me anything about Greenfield University!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you", "take care", "later", "exit", "quit", "done"],
+      "responses": [
+        "Goodbye! Best of luck with your studies!",
+        "See you soon! Don't hesitate to return if you have more questions.",
+        "Take care! Wishing you all the best at Greenfield University."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "thx", "appreciate it", "helpful", "great help", "awesome"],
+      "responses": [
+        "You're welcome! Happy to help.",
+        "Anytime! Let me know if you need anything else.",
+        "Glad I could assist! Feel free to ask more questions."
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+        "how to apply", "admission process", "how do I get admitted", "admission procedure",
+        "application process", "how to get admission", "apply for admission", "enrollment process",
+        "how do I enroll", "admission requirements", "how to join the college", "admission form",
+        "apply online", "when does admission start", "admission open", "how can I take admission"
+      ],
+      "responses": [
+        "Admission Process at Greenfield University:\n\n1. Online Application - Fill the form at admissions.greenfield.edu\n2. Documents Required: 10th & 12th marksheets, ID proof, passport photo\n3. Entrance Exam - CUET / University entrance test (varies by program)\n4. Merit List - Published within 2 weeks of results\n5. Counseling - Slot booking via the portal\n6. Fee Payment - Within 7 days of seat confirmation\n\nApplications open: January 15 to March 31 each year\n\nWould you like details about a specific program?"
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "what courses are available", "courses offered", "programs offered", "what can I study",
+        "list of courses", "which courses", "available programs", "what degrees", "what subjects",
+        "engineering courses", "science courses", "arts courses", "commerce courses", "MBA", "BCA", "MCA",
+        "undergraduate programs", "postgraduate programs", "what do you offer", "btech"
+      ],
+      "responses": [
+        "Courses Offered at Greenfield University:\n\nUndergraduate (UG):\n- B.Tech (CS, ECE, Mechanical, Civil, AI & ML)\n- BCA - Bachelor of Computer Applications\n- B.Sc (Physics, Chemistry, Mathematics, Biotechnology)\n- B.Com (General, Honours, Accounting)\n- BA (Economics, English, Political Science, Psychology)\n- BBA - Bachelor of Business Administration\n\nPostgraduate (PG):\n- M.Tech (CS, ECE, Data Science)\n- MCA - Master of Computer Applications\n- MBA (Finance, HR, Marketing, Operations)\n- M.Sc (Mathematics, Physics, Chemistry)\n- MA (English, Economics)\n\nDiploma & Certificate:\n- Diploma in Web Development\n- Certificate in Data Science\n- Certificate in Digital Marketing\n\nDuration: UG = 3-4 years | PG = 2 years\nWant fee details or eligibility for any course?"
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "fee structure", "how much does it cost", "tuition fees", "course fees", "annual fees",
+        "semester fees", "what is the fee", "fees for admission", "total fees", "cost of education",
+        "scholarship", "fee payment", "hostel fees", "how much to pay", "fees details", "fee"
+      ],
+      "responses": [
+        "Fee Structure at Greenfield University (Annual):\n\nUndergraduate Programs:\n- B.Tech: Rs. 1,20,000/year\n- BCA: Rs. 60,000/year\n- B.Sc: Rs. 45,000/year\n- B.Com / BA / BBA: Rs. 40,000/year\n\nPostgraduate Programs:\n- M.Tech: Rs. 1,00,000/year\n- MBA: Rs. 90,000/year\n- MCA: Rs. 70,000/year\n- M.Sc / MA: Rs. 50,000/year\n\nAdditional Charges:\n- Registration Fee: Rs. 2,000 (one-time)\n- Library Fee: Rs. 3,000/year\n- Lab Fee (Tech): Rs. 5,000/year\n\nHostel (Optional):\n- Double Occupancy: Rs. 40,000/year\n- Single Occupancy: Rs. 60,000/year\n- Mess Charges: Rs. 25,000/year\n\nScholarships available for merit & EWS students!\nContact the finance office for installment plans."
+      ]
+    },
+    {
+      "tag": "timings",
+      "patterns": [
+        "college timings", "what time does college open", "college hours", "class timings",
+        "when does college start", "office hours", "library hours", "when is college open",
+        "what are the working hours", "college schedule", "opening time", "closing time", "timing"
+      ],
+      "responses": [
+        "College Timings at Greenfield University:\n\nAcademic Hours:\n- Monday to Friday: 8:00 AM to 5:00 PM\n- Saturday: 9:00 AM to 1:00 PM (Lab/Tutorial sessions)\n- Sunday: Closed\n\nClass Schedule:\n- First session: 8:00 AM to 11:00 AM\n- Break: 11:00 AM to 11:30 AM\n- Second session: 11:30 AM to 2:30 PM\n- Lunch Break: 2:30 PM to 3:00 PM\n- Evening session: 3:00 PM to 5:00 PM\n\nAdministrative Office:\n- Monday to Friday: 9:00 AM to 4:30 PM\n- Saturday: 9:00 AM to 12:30 PM\n\nLibrary:\n- Monday to Saturday: 8:00 AM to 8:00 PM\n- During Exams: 7:00 AM to 10:00 PM"
+      ]
+    },
+    {
+      "tag": "faculty",
+      "patterns": [
+        "faculty details", "who are the teachers", "professors list", "teaching staff",
+        "HOD", "head of department", "faculty information", "who teaches", "department faculty",
+        "professor contact", "faculty members", "teaching faculty", "staff details", "professors"
+      ],
+      "responses": [
+        "Faculty at Greenfield University:\n\nComputer Science Dept:\n- Dr. Arjun Mehta (HOD) - Ph.D. IIT Delhi - AI & Machine Learning\n- Prof. Sunita Rao - M.Tech - Data Structures & Algorithms\n- Dr. Vivek Sharma - Ph.D. - Cybersecurity & Networks\n\nElectronics & Communication:\n- Dr. Priya Nair (HOD) - Ph.D. IIT Bombay - VLSI Design\n- Prof. Ramesh Kumar - M.Tech - Embedded Systems\n\nManagement (MBA):\n- Dr. Anjali Patel (HOD) - Ph.D. IIM - Strategic Management\n- Prof. Deepak Joshi - MBA - Finance & Banking\n\nScience Dept:\n- Dr. Kavya Iyer (HOD) - Ph.D. - Quantum Physics\n- Prof. Mohan Das - M.Sc - Organic Chemistry\n\nFull faculty directory: faculty.greenfield.edu\nFor appointments, email department offices directly."
+      ]
+    },
+    {
+      "tag": "exams",
+      "patterns": [
+        "exam schedule", "when are exams", "exam timetable", "examination dates",
+        "when is the exam", "mid term exams", "end term exams", "semester exams",
+        "exam pattern", "how are exams conducted", "exam syllabus", "upcoming exams",
+        "test dates", "internal assessment", "external exams", "exams"
+      ],
+      "responses": [
+        "Exam Schedule at Greenfield University:\n\nInternal Assessments (Each Semester):\n- Internal Test 1: Week 5-6 of semester\n- Internal Test 2: Week 10-11 of semester\n- Assignment Submission: Week 14\n\nSemester Exam Dates (2024-25):\n- Odd Semester (Nov-Dec): November 18 to December 10, 2024\n- Even Semester (Apr-May): April 21 to May 15, 2025\n\nExam Pattern:\n- Theory: 3-hour paper (70 marks)\n- Internal Assessment: 30 marks\n- Practical/Viva: Separate schedule\n\nResult Declaration: 4-6 weeks after exams\n\nHall tickets available on the portal 1 week before exams.\nFor re-evaluation, apply within 15 days of results.\nVisit exams.greenfield.edu for full timetable."
+      ]
+    },
+    {
+      "tag": "placements",
+      "patterns": [
+        "placement information", "job placement", "campus placements", "which companies visit",
+        "placement record", "highest package", "average package", "placement cell",
+        "internship", "recruitment", "campus drive", "job opportunities", "placement statistics",
+        "companies that recruit", "career opportunities", "placement rate", "placements", "salary"
+      ],
+      "responses": [
+        "Placement Information - Greenfield University:\n\n2023-24 Highlights:\n- Placement Rate: 94% (B.Tech CSE), 88% overall\n- Highest Package: Rs. 42 LPA (Google - B.Tech CSE)\n- Average Package: Rs. 8.5 LPA (Tech) | Rs. 6.2 LPA (Management)\n- Total Recruiters: 180+ companies\n- Students Placed: 1,240 out of 1,320 eligible\n\nTop Recruiters:\nTech: TCS, Infosys, Wipro, Accenture, Capgemini, Amazon, Microsoft, Google, Flipkart\nManagement: Deloitte, KPMG, EY, HDFC Bank, Axis Bank\nCore Engineering: L&T, Bosch, Mahindra, ABB\n\nInternship Programs:\n- Summer Internships: March to May\n- 6-month Industrial Training (7th semester)\n- Stipend range: Rs. 10,000 to 50,000/month\n\nPlacement Cell Contact: placements@greenfield.edu\nRegister at: careers.greenfield.edu"
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "contact details", "how to contact", "phone number", "email address", "address",
+        "where is the college", "location", "how to reach", "college address",
+        "contact information", "helpline", "support", "admission office contact",
+        "phone", "email", "reach out", "contact"
+      ],
+      "responses": [
+        "Contact Greenfield University:\n\nMain Campus:\nAddress: 123 University Road, Knowledge Park, Bangalore - 560001, Karnataka, India\n\nPhone Numbers:\n- Main Reception: +91-80-12345678\n- Admissions Office: +91-80-12345679\n- Placement Cell: +91-80-12345680\n- Finance Office: +91-80-12345681\n- Hostel Office: +91-80-12345682\n\nEmail Addresses:\n- General: info@greenfield.edu\n- Admissions: admissions@greenfield.edu\n- Placements: placements@greenfield.edu\n- Finance: finance@greenfield.edu\n\nWebsite: www.greenfield.edu\n\nOffice Hours: Mon-Fri 9:00 AM to 5:00 PM\nSaturday: 9:00 AM to 1:00 PM"
+      ]
+    },
+    {
+      "tag": "hostel",
+      "patterns": [
+        "hostel facility", "hostel availability", "accommodation", "dormitory", "hostel fees",
+        "hostel rules", "hostel room", "does college have hostel", "on campus housing",
+        "boys hostel", "girls hostel", "hostel warden", "hostel food", "hostel"
+      ],
+      "responses": [
+        "Hostel Facilities at Greenfield University:\n\nAvailability:\n- Boys Hostel: 4 blocks, 800 seats\n- Girls Hostel: 3 blocks, 600 seats (24/7 security)\n\nRoom Types:\n- Double Occupancy: Rs. 40,000/year\n- Triple Occupancy: Rs. 30,000/year\n- Single Occupancy: Rs. 60,000/year (limited)\n\nMess & Food:\n- Mess Charges: Rs. 25,000/year\n- Veg & Non-veg options\n- Breakfast, Lunch, Snacks, Dinner\n\nFacilities Included:\n- WiFi (50 Mbps)\n- Laundry service\n- Indoor games room\n- 24/7 security & CCTV\n- Medical room on campus\n\nHostel Timings:\n- Curfew: 10:00 PM (Boys) | 9:00 PM (Girls)\n- Visitors: 10 AM to 6 PM (weekdays only)\n\nApply at: hostel.greenfield.edu | hostel@greenfield.edu"
+      ]
+    },
+    {
+      "tag": "facilities",
+      "patterns": [
+        "college facilities", "infrastructure", "labs", "library", "sports", "canteen",
+        "what facilities", "amenities", "campus facilities", "wifi", "transport",
+        "gym", "auditorium", "computer lab", "medical", "facilities"
+      ],
+      "responses": [
+        "Campus Facilities at Greenfield University:\n\nAcademic:\n- 40+ state-of-the-art labs\n- Central Library (50,000+ books, digital access)\n- Smart classrooms with projectors\n- Research & Innovation Center\n- Seminar halls (capacity 200-500)\n\nTechnology:\n- High-speed WiFi across campus (100 Mbps)\n- 24/7 computer labs\n- 3D printing lab\n- Robotics & IoT lab\n\nSports & Recreation:\n- Cricket ground, Football field\n- Basketball, Volleyball, Badminton courts\n- Swimming pool\n- Modern gym & fitness center\n\nStudent Services:\n- Medical center & ambulance\n- Counseling center\n- Bank & ATM on campus\n- Cafeteria & multiple canteens\n\nTransport:\n- Bus service across 15+ routes\n- Parking for 2-wheelers & 4-wheelers"
+      ]
+    },
+    {
+      "tag": "scholarship",
+      "patterns": [
+        "scholarship", "financial aid", "merit scholarship", "fee waiver", "free education",
+        "scholarship eligibility", "how to get scholarship", "scholarship amount", "government scholarship",
+        "bursary", "financial support", "concession"
+      ],
+      "responses": [
+        "Scholarships at Greenfield University:\n\nMerit-Based Scholarships:\n- 100% tuition waiver: 95%+ in 12th\n- 75% tuition waiver: 90-94.9% in 12th\n- 50% tuition waiver: 85-89.9% in 12th\n\nSpecial Category:\n- EWS (Economically Weaker Section): Up to Rs. 50,000/year\n- SC/ST/OBC: As per Government norms\n- Sports Excellence: Up to Rs. 30,000/year\n- Differently-abled: 50% fee concession\n\nGovernment Scholarships Supported:\n- NSP (National Scholarship Portal)\n- State Government scholarships\n- PM-YASASVI scheme\n\nApplication Process:\n1. Submit scholarship form during admission\n2. Attach income certificate, marksheets\n3. Interview (for some categories)\n4. Results in 4-6 weeks\n\nContact: scholarship@greenfield.edu"
+      ]
+    }
+  ]
+}
