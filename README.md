@@ -157,3 +157,11 @@ curl -X POST https://your-app.onrender.com/api/intents \
 ## 📝 License
 
 MIT — free to use and modify for educational purposes.
+
+
+
+
+
+
+
+my project live URL: https://ai-chatbot-for-college-information-system.onrender.com
